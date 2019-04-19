@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/*utillities */
+// utilities
 $main-color: #563d7c;
 $secondary-color: #7952b3;
 $bg-color: #f8f9fa;
@@ -62,9 +62,9 @@ $line-height: 0.25;
 .hide {
   @include display(none);
 }
-// backround-colors
-.redback {
-  background-color: red;
+// background-colors
+.bg-color{
+  background: $bg-color;
 }
 
 .to-x {
@@ -148,10 +148,10 @@ div[class^="col-"] {
 .gutter-0 {
   margin: 0 auto;
 }
-.gutter-hor-auto {
+.gutter-h-auto {
   margin: 0 auto;
 }
-.gutter-ver-auto {
+.gutter-h-auto {
   margin: auto 0;
 }
 @for$i from 1 through 20 {
@@ -168,10 +168,10 @@ div[class^="col-"] {
   .gutter-l-#{$i} {
     margin-left: $gutter * $i;
   }
-  .gutter-hor-#{$i} {
+  .gutter-h-#{$i} {
     margin: 0 $gutter * $i;
   }
-  .gutter-ver-#{$i} {
+  .gutter-v-#{$i} {
     margin: $gutter * $i 0;
   }
 
@@ -188,10 +188,10 @@ div[class^="col-"] {
   .gutter-nl-#{$i} {
     margin-left: -$gutter * $i;
   }
-  .gutter-nhor-#{$i} {
+  .gutter-nh-#{$i} {
     margin: 0 -$gutter * $i;
   }
-  .gutter-nver-#{$i} {
+  .gutter-nv-#{$i} {
     margin: -$gutter * $i 0;
   }
 }
@@ -214,7 +214,7 @@ div[class^="col-"] {
 }
 // colors
 @for$i from 1 through 10 {
-  .black-#{$i*10} {
+  .black-#{$i} {
     background-color: rgba(0, 0, 0, ($i / 10)-0.05);
   }
 }
@@ -244,10 +244,10 @@ div[class^="col-"] {
   .padding-#{$i} {
     padding: $padding * $i;
   }
-  .padding-hor-#{$i} {
+  .padding-h-#{$i} {
     padding: 0 $padding * $i;
   }
-  .padding-vert-#{$i} {
+  .padding-v-#{$i} {
     padding: $padding * $i 0;
   }
   .padding-#{$i} {
@@ -275,14 +275,14 @@ div[class^="col-"] {
   }
 }
 
-/*text -size*/
+/*font -size*/
 @for $i from 1 through 20 {
-  .text-size-#{$i} {
+  .fs-#{$i} {
     font-size: $text-size * $i;
   }
 }
 
-// text weight
+// font weight
 @for $i from 1 through 9 {
   .fw-#{$i} {
     font-weight: $text-weight * $i;
@@ -295,6 +295,7 @@ div[class^="col-"] {
   }
 }
 
+// transitions
 @for $i from 1 through 10 {
   @if $i > 2 {
     .smooth-#{$i} {
@@ -306,7 +307,7 @@ div[class^="col-"] {
     }
   }
 }
-/*utillities end*/
+// utilities end
 
 
 

@@ -2,12 +2,11 @@ body {
   @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
   font-family: "Open Sans", sans-serif; }
 
-/*utillities */
 .hide {
   display: none; }
 
-.redback {
-  background-color: red; }
+.bg-color {
+  background: #f8f9fa; }
 
 .to-x {
   overflow-x: scroll; }
@@ -72,10 +71,10 @@ div[class^="col-"] {
 .gutter-0 {
   margin: 0 auto; }
 
-.gutter-hor-auto {
+.gutter-h-auto {
   margin: 0 auto; }
 
-.gutter-ver-auto {
+.gutter-h-auto {
   margin: auto 0; }
 
 .gutter-t-1 {
@@ -90,10 +89,10 @@ div[class^="col-"] {
 .gutter-l-1 {
   margin-left: 0.25rem; }
 
-.gutter-hor-1 {
+.gutter-h-1 {
   margin: 0 0.25rem; }
 
-.gutter-ver-1 {
+.gutter-v-1 {
   margin: 0.25rem 0; }
 
 .gutter-nt-1 {
@@ -108,10 +107,10 @@ div[class^="col-"] {
 .gutter-nl-1 {
   margin-left: -0.25rem; }
 
-.gutter-nhor-1 {
+.gutter-nh-1 {
   margin: -0.25rem; }
 
-.gutter-nver-1 {
+.gutter-nv-1 {
   margin: -0.25rem 0; }
 
 .gutter-t-2 {
@@ -126,10 +125,10 @@ div[class^="col-"] {
 .gutter-l-2 {
   margin-left: 0.5rem; }
 
-.gutter-hor-2 {
+.gutter-h-2 {
   margin: 0 0.5rem; }
 
-.gutter-ver-2 {
+.gutter-v-2 {
   margin: 0.5rem 0; }
 
 .gutter-nt-2 {
@@ -144,10 +143,10 @@ div[class^="col-"] {
 .gutter-nl-2 {
   margin-left: -0.5rem; }
 
-.gutter-nhor-2 {
+.gutter-nh-2 {
   margin: -0.5rem; }
 
-.gutter-nver-2 {
+.gutter-nv-2 {
   margin: -0.5rem 0; }
 
 .gutter-t-3 {
@@ -162,10 +161,10 @@ div[class^="col-"] {
 .gutter-l-3 {
   margin-left: 0.75rem; }
 
-.gutter-hor-3 {
+.gutter-h-3 {
   margin: 0 0.75rem; }
 
-.gutter-ver-3 {
+.gutter-v-3 {
   margin: 0.75rem 0; }
 
 .gutter-nt-3 {
@@ -180,10 +179,10 @@ div[class^="col-"] {
 .gutter-nl-3 {
   margin-left: -0.75rem; }
 
-.gutter-nhor-3 {
+.gutter-nh-3 {
   margin: -0.75rem; }
 
-.gutter-nver-3 {
+.gutter-nv-3 {
   margin: -0.75rem 0; }
 
 .gutter-t-4 {
@@ -198,10 +197,10 @@ div[class^="col-"] {
 .gutter-l-4 {
   margin-left: 1rem; }
 
-.gutter-hor-4 {
+.gutter-h-4 {
   margin: 0 1rem; }
 
-.gutter-ver-4 {
+.gutter-v-4 {
   margin: 1rem 0; }
 
 .gutter-nt-4 {
@@ -216,10 +215,10 @@ div[class^="col-"] {
 .gutter-nl-4 {
   margin-left: -1rem; }
 
-.gutter-nhor-4 {
+.gutter-nh-4 {
   margin: -1rem; }
 
-.gutter-nver-4 {
+.gutter-nv-4 {
   margin: -1rem 0; }
 
 .gutter-t-5 {
@@ -234,10 +233,10 @@ div[class^="col-"] {
 .gutter-l-5 {
   margin-left: 1.25rem; }
 
-.gutter-hor-5 {
+.gutter-h-5 {
   margin: 0 1.25rem; }
 
-.gutter-ver-5 {
+.gutter-v-5 {
   margin: 1.25rem 0; }
 
 .gutter-nt-5 {
@@ -252,10 +251,10 @@ div[class^="col-"] {
 .gutter-nl-5 {
   margin-left: -1.25rem; }
 
-.gutter-nhor-5 {
+.gutter-nh-5 {
   margin: -1.25rem; }
 
-.gutter-nver-5 {
+.gutter-nv-5 {
   margin: -1.25rem 0; }
 
 .gutter-t-6 {
@@ -270,10 +269,10 @@ div[class^="col-"] {
 .gutter-l-6 {
   margin-left: 1.5rem; }
 
-.gutter-hor-6 {
+.gutter-h-6 {
   margin: 0 1.5rem; }
 
-.gutter-ver-6 {
+.gutter-v-6 {
   margin: 1.5rem 0; }
 
 .gutter-nt-6 {
@@ -288,10 +287,10 @@ div[class^="col-"] {
 .gutter-nl-6 {
   margin-left: -1.5rem; }
 
-.gutter-nhor-6 {
+.gutter-nh-6 {
   margin: -1.5rem; }
 
-.gutter-nver-6 {
+.gutter-nv-6 {
   margin: -1.5rem 0; }
 
 .gutter-t-7 {
@@ -306,10 +305,10 @@ div[class^="col-"] {
 .gutter-l-7 {
   margin-left: 1.75rem; }
 
-.gutter-hor-7 {
+.gutter-h-7 {
   margin: 0 1.75rem; }
 
-.gutter-ver-7 {
+.gutter-v-7 {
   margin: 1.75rem 0; }
 
 .gutter-nt-7 {
@@ -324,10 +323,10 @@ div[class^="col-"] {
 .gutter-nl-7 {
   margin-left: -1.75rem; }
 
-.gutter-nhor-7 {
+.gutter-nh-7 {
   margin: -1.75rem; }
 
-.gutter-nver-7 {
+.gutter-nv-7 {
   margin: -1.75rem 0; }
 
 .gutter-t-8 {
@@ -342,10 +341,10 @@ div[class^="col-"] {
 .gutter-l-8 {
   margin-left: 2rem; }
 
-.gutter-hor-8 {
+.gutter-h-8 {
   margin: 0 2rem; }
 
-.gutter-ver-8 {
+.gutter-v-8 {
   margin: 2rem 0; }
 
 .gutter-nt-8 {
@@ -360,10 +359,10 @@ div[class^="col-"] {
 .gutter-nl-8 {
   margin-left: -2rem; }
 
-.gutter-nhor-8 {
+.gutter-nh-8 {
   margin: -2rem; }
 
-.gutter-nver-8 {
+.gutter-nv-8 {
   margin: -2rem 0; }
 
 .gutter-t-9 {
@@ -378,10 +377,10 @@ div[class^="col-"] {
 .gutter-l-9 {
   margin-left: 2.25rem; }
 
-.gutter-hor-9 {
+.gutter-h-9 {
   margin: 0 2.25rem; }
 
-.gutter-ver-9 {
+.gutter-v-9 {
   margin: 2.25rem 0; }
 
 .gutter-nt-9 {
@@ -396,10 +395,10 @@ div[class^="col-"] {
 .gutter-nl-9 {
   margin-left: -2.25rem; }
 
-.gutter-nhor-9 {
+.gutter-nh-9 {
   margin: -2.25rem; }
 
-.gutter-nver-9 {
+.gutter-nv-9 {
   margin: -2.25rem 0; }
 
 .gutter-t-10 {
@@ -414,10 +413,10 @@ div[class^="col-"] {
 .gutter-l-10 {
   margin-left: 2.5rem; }
 
-.gutter-hor-10 {
+.gutter-h-10 {
   margin: 0 2.5rem; }
 
-.gutter-ver-10 {
+.gutter-v-10 {
   margin: 2.5rem 0; }
 
 .gutter-nt-10 {
@@ -432,10 +431,10 @@ div[class^="col-"] {
 .gutter-nl-10 {
   margin-left: -2.5rem; }
 
-.gutter-nhor-10 {
+.gutter-nh-10 {
   margin: -2.5rem; }
 
-.gutter-nver-10 {
+.gutter-nv-10 {
   margin: -2.5rem 0; }
 
 .gutter-t-11 {
@@ -450,10 +449,10 @@ div[class^="col-"] {
 .gutter-l-11 {
   margin-left: 2.75rem; }
 
-.gutter-hor-11 {
+.gutter-h-11 {
   margin: 0 2.75rem; }
 
-.gutter-ver-11 {
+.gutter-v-11 {
   margin: 2.75rem 0; }
 
 .gutter-nt-11 {
@@ -468,10 +467,10 @@ div[class^="col-"] {
 .gutter-nl-11 {
   margin-left: -2.75rem; }
 
-.gutter-nhor-11 {
+.gutter-nh-11 {
   margin: -2.75rem; }
 
-.gutter-nver-11 {
+.gutter-nv-11 {
   margin: -2.75rem 0; }
 
 .gutter-t-12 {
@@ -486,10 +485,10 @@ div[class^="col-"] {
 .gutter-l-12 {
   margin-left: 3rem; }
 
-.gutter-hor-12 {
+.gutter-h-12 {
   margin: 0 3rem; }
 
-.gutter-ver-12 {
+.gutter-v-12 {
   margin: 3rem 0; }
 
 .gutter-nt-12 {
@@ -504,10 +503,10 @@ div[class^="col-"] {
 .gutter-nl-12 {
   margin-left: -3rem; }
 
-.gutter-nhor-12 {
+.gutter-nh-12 {
   margin: -3rem; }
 
-.gutter-nver-12 {
+.gutter-nv-12 {
   margin: -3rem 0; }
 
 .gutter-t-13 {
@@ -522,10 +521,10 @@ div[class^="col-"] {
 .gutter-l-13 {
   margin-left: 3.25rem; }
 
-.gutter-hor-13 {
+.gutter-h-13 {
   margin: 0 3.25rem; }
 
-.gutter-ver-13 {
+.gutter-v-13 {
   margin: 3.25rem 0; }
 
 .gutter-nt-13 {
@@ -540,10 +539,10 @@ div[class^="col-"] {
 .gutter-nl-13 {
   margin-left: -3.25rem; }
 
-.gutter-nhor-13 {
+.gutter-nh-13 {
   margin: -3.25rem; }
 
-.gutter-nver-13 {
+.gutter-nv-13 {
   margin: -3.25rem 0; }
 
 .gutter-t-14 {
@@ -558,10 +557,10 @@ div[class^="col-"] {
 .gutter-l-14 {
   margin-left: 3.5rem; }
 
-.gutter-hor-14 {
+.gutter-h-14 {
   margin: 0 3.5rem; }
 
-.gutter-ver-14 {
+.gutter-v-14 {
   margin: 3.5rem 0; }
 
 .gutter-nt-14 {
@@ -576,10 +575,10 @@ div[class^="col-"] {
 .gutter-nl-14 {
   margin-left: -3.5rem; }
 
-.gutter-nhor-14 {
+.gutter-nh-14 {
   margin: -3.5rem; }
 
-.gutter-nver-14 {
+.gutter-nv-14 {
   margin: -3.5rem 0; }
 
 .gutter-t-15 {
@@ -594,10 +593,10 @@ div[class^="col-"] {
 .gutter-l-15 {
   margin-left: 3.75rem; }
 
-.gutter-hor-15 {
+.gutter-h-15 {
   margin: 0 3.75rem; }
 
-.gutter-ver-15 {
+.gutter-v-15 {
   margin: 3.75rem 0; }
 
 .gutter-nt-15 {
@@ -612,10 +611,10 @@ div[class^="col-"] {
 .gutter-nl-15 {
   margin-left: -3.75rem; }
 
-.gutter-nhor-15 {
+.gutter-nh-15 {
   margin: -3.75rem; }
 
-.gutter-nver-15 {
+.gutter-nv-15 {
   margin: -3.75rem 0; }
 
 .gutter-t-16 {
@@ -630,10 +629,10 @@ div[class^="col-"] {
 .gutter-l-16 {
   margin-left: 4rem; }
 
-.gutter-hor-16 {
+.gutter-h-16 {
   margin: 0 4rem; }
 
-.gutter-ver-16 {
+.gutter-v-16 {
   margin: 4rem 0; }
 
 .gutter-nt-16 {
@@ -648,10 +647,10 @@ div[class^="col-"] {
 .gutter-nl-16 {
   margin-left: -4rem; }
 
-.gutter-nhor-16 {
+.gutter-nh-16 {
   margin: -4rem; }
 
-.gutter-nver-16 {
+.gutter-nv-16 {
   margin: -4rem 0; }
 
 .gutter-t-17 {
@@ -666,10 +665,10 @@ div[class^="col-"] {
 .gutter-l-17 {
   margin-left: 4.25rem; }
 
-.gutter-hor-17 {
+.gutter-h-17 {
   margin: 0 4.25rem; }
 
-.gutter-ver-17 {
+.gutter-v-17 {
   margin: 4.25rem 0; }
 
 .gutter-nt-17 {
@@ -684,10 +683,10 @@ div[class^="col-"] {
 .gutter-nl-17 {
   margin-left: -4.25rem; }
 
-.gutter-nhor-17 {
+.gutter-nh-17 {
   margin: -4.25rem; }
 
-.gutter-nver-17 {
+.gutter-nv-17 {
   margin: -4.25rem 0; }
 
 .gutter-t-18 {
@@ -702,10 +701,10 @@ div[class^="col-"] {
 .gutter-l-18 {
   margin-left: 4.5rem; }
 
-.gutter-hor-18 {
+.gutter-h-18 {
   margin: 0 4.5rem; }
 
-.gutter-ver-18 {
+.gutter-v-18 {
   margin: 4.5rem 0; }
 
 .gutter-nt-18 {
@@ -720,10 +719,10 @@ div[class^="col-"] {
 .gutter-nl-18 {
   margin-left: -4.5rem; }
 
-.gutter-nhor-18 {
+.gutter-nh-18 {
   margin: -4.5rem; }
 
-.gutter-nver-18 {
+.gutter-nv-18 {
   margin: -4.5rem 0; }
 
 .gutter-t-19 {
@@ -738,10 +737,10 @@ div[class^="col-"] {
 .gutter-l-19 {
   margin-left: 4.75rem; }
 
-.gutter-hor-19 {
+.gutter-h-19 {
   margin: 0 4.75rem; }
 
-.gutter-ver-19 {
+.gutter-v-19 {
   margin: 4.75rem 0; }
 
 .gutter-nt-19 {
@@ -756,10 +755,10 @@ div[class^="col-"] {
 .gutter-nl-19 {
   margin-left: -4.75rem; }
 
-.gutter-nhor-19 {
+.gutter-nh-19 {
   margin: -4.75rem; }
 
-.gutter-nver-19 {
+.gutter-nv-19 {
   margin: -4.75rem 0; }
 
 .gutter-t-20 {
@@ -774,10 +773,10 @@ div[class^="col-"] {
 .gutter-l-20 {
   margin-left: 5rem; }
 
-.gutter-hor-20 {
+.gutter-h-20 {
   margin: 0 5rem; }
 
-.gutter-ver-20 {
+.gutter-v-20 {
   margin: 5rem 0; }
 
 .gutter-nt-20 {
@@ -792,10 +791,10 @@ div[class^="col-"] {
 .gutter-nl-20 {
   margin-left: -5rem; }
 
-.gutter-nhor-20 {
+.gutter-nh-20 {
   margin: -5rem; }
 
-.gutter-nver-20 {
+.gutter-nv-20 {
   margin: -5rem 0; }
 
 /* columns */
@@ -886,34 +885,34 @@ div[class^="col-"] {
   text-align: center;
   outline: none; }
 
-.black-10 {
+.black-1 {
   background-color: rgba(0, 0, 0, 0.05); }
 
-.black-20 {
+.black-2 {
   background-color: rgba(0, 0, 0, 0.15); }
 
-.black-30 {
+.black-3 {
   background-color: rgba(0, 0, 0, 0.25); }
 
-.black-40 {
+.black-4 {
   background-color: rgba(0, 0, 0, 0.35); }
 
-.black-50 {
+.black-5 {
   background-color: rgba(0, 0, 0, 0.45); }
 
-.black-60 {
+.black-6 {
   background-color: rgba(0, 0, 0, 0.55); }
 
-.black-70 {
+.black-7 {
   background-color: rgba(0, 0, 0, 0.65); }
 
-.black-80 {
+.black-8 {
   background-color: rgba(0, 0, 0, 0.75); }
 
-.black-90 {
+.black-9 {
   background-color: rgba(0, 0, 0, 0.85); }
 
-.black-100 {
+.black-10 {
   background-color: rgba(0, 0, 0, 0.95); }
 
 .text-color-black-10 {
@@ -965,10 +964,10 @@ div[class^="col-"] {
 .padding-1 {
   padding: 0.25rem; }
 
-.padding-hor-1 {
+.padding-h-1 {
   padding: 0 0.25rem; }
 
-.padding-vert-1 {
+.padding-v-1 {
   padding: 0.25rem 0; }
 
 .padding-1 {
@@ -989,10 +988,10 @@ div[class^="col-"] {
 .padding-2 {
   padding: 0.5rem; }
 
-.padding-hor-2 {
+.padding-h-2 {
   padding: 0 0.5rem; }
 
-.padding-vert-2 {
+.padding-v-2 {
   padding: 0.5rem 0; }
 
 .padding-2 {
@@ -1013,10 +1012,10 @@ div[class^="col-"] {
 .padding-3 {
   padding: 0.75rem; }
 
-.padding-hor-3 {
+.padding-h-3 {
   padding: 0 0.75rem; }
 
-.padding-vert-3 {
+.padding-v-3 {
   padding: 0.75rem 0; }
 
 .padding-3 {
@@ -1037,10 +1036,10 @@ div[class^="col-"] {
 .padding-4 {
   padding: 1rem; }
 
-.padding-hor-4 {
+.padding-h-4 {
   padding: 0 1rem; }
 
-.padding-vert-4 {
+.padding-v-4 {
   padding: 1rem 0; }
 
 .padding-4 {
@@ -1061,10 +1060,10 @@ div[class^="col-"] {
 .padding-5 {
   padding: 1.25rem; }
 
-.padding-hor-5 {
+.padding-h-5 {
   padding: 0 1.25rem; }
 
-.padding-vert-5 {
+.padding-v-5 {
   padding: 1.25rem 0; }
 
 .padding-5 {
@@ -1085,10 +1084,10 @@ div[class^="col-"] {
 .padding-6 {
   padding: 1.5rem; }
 
-.padding-hor-6 {
+.padding-h-6 {
   padding: 0 1.5rem; }
 
-.padding-vert-6 {
+.padding-v-6 {
   padding: 1.5rem 0; }
 
 .padding-6 {
@@ -1109,10 +1108,10 @@ div[class^="col-"] {
 .padding-7 {
   padding: 1.75rem; }
 
-.padding-hor-7 {
+.padding-h-7 {
   padding: 0 1.75rem; }
 
-.padding-vert-7 {
+.padding-v-7 {
   padding: 1.75rem 0; }
 
 .padding-7 {
@@ -1133,10 +1132,10 @@ div[class^="col-"] {
 .padding-8 {
   padding: 2rem; }
 
-.padding-hor-8 {
+.padding-h-8 {
   padding: 0 2rem; }
 
-.padding-vert-8 {
+.padding-v-8 {
   padding: 2rem 0; }
 
 .padding-8 {
@@ -1157,10 +1156,10 @@ div[class^="col-"] {
 .padding-9 {
   padding: 2.25rem; }
 
-.padding-hor-9 {
+.padding-h-9 {
   padding: 0 2.25rem; }
 
-.padding-vert-9 {
+.padding-v-9 {
   padding: 2.25rem 0; }
 
 .padding-9 {
@@ -1181,10 +1180,10 @@ div[class^="col-"] {
 .padding-10 {
   padding: 2.5rem; }
 
-.padding-hor-10 {
+.padding-h-10 {
   padding: 0 2.5rem; }
 
-.padding-vert-10 {
+.padding-v-10 {
   padding: 2.5rem 0; }
 
 .padding-10 {
@@ -1205,10 +1204,10 @@ div[class^="col-"] {
 .padding-11 {
   padding: 2.75rem; }
 
-.padding-hor-11 {
+.padding-h-11 {
   padding: 0 2.75rem; }
 
-.padding-vert-11 {
+.padding-v-11 {
   padding: 2.75rem 0; }
 
 .padding-11 {
@@ -1229,10 +1228,10 @@ div[class^="col-"] {
 .padding-12 {
   padding: 3rem; }
 
-.padding-hor-12 {
+.padding-h-12 {
   padding: 0 3rem; }
 
-.padding-vert-12 {
+.padding-v-12 {
   padding: 3rem 0; }
 
 .padding-12 {
@@ -1253,10 +1252,10 @@ div[class^="col-"] {
 .padding-13 {
   padding: 3.25rem; }
 
-.padding-hor-13 {
+.padding-h-13 {
   padding: 0 3.25rem; }
 
-.padding-vert-13 {
+.padding-v-13 {
   padding: 3.25rem 0; }
 
 .padding-13 {
@@ -1277,10 +1276,10 @@ div[class^="col-"] {
 .padding-14 {
   padding: 3.5rem; }
 
-.padding-hor-14 {
+.padding-h-14 {
   padding: 0 3.5rem; }
 
-.padding-vert-14 {
+.padding-v-14 {
   padding: 3.5rem 0; }
 
 .padding-14 {
@@ -1301,10 +1300,10 @@ div[class^="col-"] {
 .padding-15 {
   padding: 3.75rem; }
 
-.padding-hor-15 {
+.padding-h-15 {
   padding: 0 3.75rem; }
 
-.padding-vert-15 {
+.padding-v-15 {
   padding: 3.75rem 0; }
 
 .padding-15 {
@@ -1325,10 +1324,10 @@ div[class^="col-"] {
 .padding-16 {
   padding: 4rem; }
 
-.padding-hor-16 {
+.padding-h-16 {
   padding: 0 4rem; }
 
-.padding-vert-16 {
+.padding-v-16 {
   padding: 4rem 0; }
 
 .padding-16 {
@@ -1349,10 +1348,10 @@ div[class^="col-"] {
 .padding-17 {
   padding: 4.25rem; }
 
-.padding-hor-17 {
+.padding-h-17 {
   padding: 0 4.25rem; }
 
-.padding-vert-17 {
+.padding-v-17 {
   padding: 4.25rem 0; }
 
 .padding-17 {
@@ -1373,10 +1372,10 @@ div[class^="col-"] {
 .padding-18 {
   padding: 4.5rem; }
 
-.padding-hor-18 {
+.padding-h-18 {
   padding: 0 4.5rem; }
 
-.padding-vert-18 {
+.padding-v-18 {
   padding: 4.5rem 0; }
 
 .padding-18 {
@@ -1397,10 +1396,10 @@ div[class^="col-"] {
 .padding-19 {
   padding: 4.75rem; }
 
-.padding-hor-19 {
+.padding-h-19 {
   padding: 0 4.75rem; }
 
-.padding-vert-19 {
+.padding-v-19 {
   padding: 4.75rem 0; }
 
 .padding-19 {
@@ -1421,10 +1420,10 @@ div[class^="col-"] {
 .padding-20 {
   padding: 5rem; }
 
-.padding-hor-20 {
+.padding-h-20 {
   padding: 0 5rem; }
 
-.padding-vert-20 {
+.padding-v-20 {
   padding: 5rem 0; }
 
 .padding-20 {
@@ -1588,65 +1587,65 @@ div[class^="col-"] {
 .w-30 {
   width: 30em; }
 
-/*text -size*/
-.text-size-1 {
+/*font -size*/
+.fs-1 {
   font-size: 0.25rem; }
 
-.text-size-2 {
+.fs-2 {
   font-size: 0.5rem; }
 
-.text-size-3 {
+.fs-3 {
   font-size: 0.75rem; }
 
-.text-size-4 {
+.fs-4 {
   font-size: 1rem; }
 
-.text-size-5 {
+.fs-5 {
   font-size: 1.25rem; }
 
-.text-size-6 {
+.fs-6 {
   font-size: 1.5rem; }
 
-.text-size-7 {
+.fs-7 {
   font-size: 1.75rem; }
 
-.text-size-8 {
+.fs-8 {
   font-size: 2rem; }
 
-.text-size-9 {
+.fs-9 {
   font-size: 2.25rem; }
 
-.text-size-10 {
+.fs-10 {
   font-size: 2.5rem; }
 
-.text-size-11 {
+.fs-11 {
   font-size: 2.75rem; }
 
-.text-size-12 {
+.fs-12 {
   font-size: 3rem; }
 
-.text-size-13 {
+.fs-13 {
   font-size: 3.25rem; }
 
-.text-size-14 {
+.fs-14 {
   font-size: 3.5rem; }
 
-.text-size-15 {
+.fs-15 {
   font-size: 3.75rem; }
 
-.text-size-16 {
+.fs-16 {
   font-size: 4rem; }
 
-.text-size-17 {
+.fs-17 {
   font-size: 4.25rem; }
 
-.text-size-18 {
+.fs-18 {
   font-size: 4.5rem; }
 
-.text-size-19 {
+.fs-19 {
   font-size: 4.75rem; }
 
-.text-size-20 {
+.fs-20 {
   font-size: 5rem; }
 
 .fw-1 {
@@ -1766,7 +1765,6 @@ div[class^="col-"] {
 .smooth-10 {
   transition: all 2s ease-in; }
 
-/*utillities end*/
 .f-d-row {
   flex-direction: row;
   flex-wrap: nowrap; }
