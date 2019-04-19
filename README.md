@@ -1,14 +1,16 @@
 # Beautiful-Ui
-A beautiful and easy to use css framework for Developers. Have your website looking beautiful in Minutes.
 
-##Getting Started
-You can get Started by cloning [Beautiful-Ui](https://github.com/Ispirett/Beautiful-Ui) this repo,
+A beautiful and easy to use css framework for Developers. Have your website looking beautiful in minutes.
+
+## Getting Started
+
+You can get Started by cloning [Beautiful-Ui](https://github.com/Ispirett/Beautiful-Ui) repo,
 or download the css file and adding it to your project.
 
 ## Examples:
 
+##### Layout your site semantics with our easy to use fluid grid system.
 
-##### Layout your site semantics with our easily with our fluid grid system
 ```
 <div class="row">
 <div class=" text-center col-md-6 ">
@@ -18,13 +20,13 @@ or download the css file and adding it to your project.
 </div>
 ```
 
-##### Create buttons with ease
+##### Create buttons with ease.
 
 ```
 <button class="btn-5 bg-blue h-4"></button>
 ```
 
-#####  Positions elements where ever you need
+##### Positions elements where ever you need.
 
 ```
 <div class=" text-center col-md-2 f-left gutter-l-2 ">
@@ -41,7 +43,8 @@ or download the css file and adding it to your project.
 </section>
 
 ```
-#####  Choose from a variety of colors to give life to your site's typography.
+
+##### Choose from a variety of colors to give life to your site's typography.
 
 ```
 <div class=" text-center col-md-2 f-left gutter-l-2 ">
@@ -62,7 +65,7 @@ or download the css file and adding it to your project.
 
 ```
 
-#####  Add padding to your elements by.
+##### Add padding to your elements.
 
 ```
 <div class=" text-center col-md-2 f-left  padding-20">
@@ -83,32 +86,34 @@ or download the css file and adding it to your project.
 #### Some of our classes that makes developing easier.
 
 #### Text
-* to-x : text overflow horizontal
-* to-y : text overflow vertical
-* text-size : size of text
-* lh-6 : line height
+
+- to-x : text overflow horizontal
+- to-y : text overflow vertical
+- text-size : size of text
+- lh-6 : line height
 
 #### Link
-* btn-link
+
+- btn-link
 
 #### Colors
-* blue
-* purple
-* black
-* white
-* green
+
+- blue
+- purple
+- black
+- white
+- green
 
 #### Display
 
-* d-block : display block
-* d-flex : display flex
+- d-block : display block
+- d-flex : display flex
 
 ## And much more!!!
 
+### Contributions
 
-### Contributions 
 Please read our Contribution.md file to understand how to contribute. All contributions are welcome small or large :)
-
 
 ### License
 
