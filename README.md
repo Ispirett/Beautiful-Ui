@@ -110,6 +110,6 @@ or download the css file and adding it to your project.
 Please read our Contribution.md file to understand how to contribute. All contributions are welcome small or large :)
 
 
-###License
+### License
 
 This project is licensed under the MIT License for more info read the LICENSE.md.
