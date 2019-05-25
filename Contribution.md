@@ -13,7 +13,8 @@ gem install sass
 #### Run this command in project folder when working on scss
 
 ```
-sass --watch scss/main.scss:css/main.css
+sass --watch scss/main.scss:css/beautiful-ui.css
+
 ```
 
 ### When adding new features:
