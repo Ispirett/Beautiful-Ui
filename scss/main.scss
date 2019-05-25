@@ -11,6 +11,7 @@ $grey: #6c757d;
 $yellow: #ffe484;
 $blue: #007bff;
 $light-purple: #cbbde2;
+$mint-green: #63c06e;
 $white: white;
 $black: black;
 $columns: 12;
@@ -58,6 +59,13 @@ $line-height: 0.25;
 @mixin float($value) {
   float: $value;
 }
+
+// text
+@mixin text-alignment($pos){
+  text-align: $pos;
+}
+
+
 // displays
 .hide {
   @include display(none);
@@ -117,6 +125,19 @@ $line-height: 0.25;
 .border-yellow {
   @include border($yellow);
 }
+
+// Text alignment
+
+.text-center{
+  @include text-alignment(center)
+}
+.text-left{
+  @include text-alignment(left)
+}
+.text-right{
+  @include text-alignment(right)
+}
+
 
 .row {
   display: flex;
